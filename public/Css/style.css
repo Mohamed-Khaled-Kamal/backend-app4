@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 163);
+    /* background-image: url(../img/pexels-fotios-photos-1107717.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-transform: capitalize;
+}
+
+h2{
+    background-color: rgb(149, 148, 146);
+    color: aliceblue;
+}
+
+.Result{
+    text-align: center;
+    font-size: xxx-large;
+    /* line-height: 165px; */
+    margin: auto;
+    width: fit-content;
+}
+
+p{
+    background-color: aliceblue;
+    margin: 80px auto;
+    width: fit-content;
+    border-radius: 15px;
+}
+
+.Wbtn{
+    width: 200px;
+    height:50px;
+    border-radius: 30px;
+    border: none;
+    font-size: larger;
+    background-color: #fbc665;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.5s;
+    flex: 1;
+}
+
+.Wbtn:hover{
+    font-size: x-large;
+}
+
+.navH{
+    flex: 5;
+    font-size: 45px;
+}
+
+#form1{
+    display: flex;
+    text-align: center;
+    background-color: #fff08e;
+    padding: 10px;
+}
+
+#address{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: xx-large;
+    text-align: center;
+    flex: 1;
+}
+
+#error{
+    background-color: red;
+    color: aliceblue;
+}
